@@ -1,6 +1,6 @@
 package main.kotlin.com.volkswagen.robotcleaner.infrastructure.cli
 
-import main.kotlin.com.volkswagen.robotcleaner.application.ExecuteRobotUseCase
+import main.kotlin.com.volkswagen.robotcleaner.application.usecase.ExecuteRobotUseCase
 import main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.InputParser
 import main.kotlin.com.volkswagen.robotcleaner.infrastructure.output.OutPutFormatter
 

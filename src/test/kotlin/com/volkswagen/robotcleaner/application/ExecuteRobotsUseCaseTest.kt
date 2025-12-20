@@ -1,7 +1,7 @@
 package test.kotlin.com.volkswagen.robotcleaner.application
 
-import main.kotlin.com.volkswagen.robotcleaner.application.ExecuteRobotUseCase
-import main.kotlin.com.volkswagen.robotcleaner.application.RobotCommand
+import main.kotlin.com.volkswagen.robotcleaner.application.usecase.ExecuteRobotUseCase
+import main.kotlin.com.volkswagen.robotcleaner.application.dto.RobotCommand
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Direction
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Grid
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Position
@@ -39,7 +39,6 @@ class ExecuteRobotsUseCaseTest {
 
         assertEquals(Position(5, 1), result[1].position)
         assertEquals(Direction.E, result[1].direction)
-
     }
 
 }
