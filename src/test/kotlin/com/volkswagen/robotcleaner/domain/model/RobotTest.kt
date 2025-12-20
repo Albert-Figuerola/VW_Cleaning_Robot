@@ -12,7 +12,7 @@ class RobotTest {
 
     @Test
     @DisplayName("Test of the first commands")
-    fun testExecuteFirstCommandTest() {
+    fun testExecuteInstructionsFirstCommandTest() {
         val grid = Grid(5, 5)
         val robot = Robot(
             Position(1, 2),
@@ -20,7 +20,7 @@ class RobotTest {
             grid = grid
         )
 
-        robot.execute("LMLMLMLMM")
+        robot.executeInstructions("LMLMLMLMM")
 
         assertEquals(Position(1, 3), robot.position)
         assertEquals(Direction.N, robot.direction)
@@ -28,7 +28,7 @@ class RobotTest {
 
     @Test
     @DisplayName("Test of the second commands")
-    fun testExecuteSecondCommandTest() {
+    fun testExecuteInstructionsSecondCommandTest() {
         val grid = Grid(5, 5)
         val robot = Robot(
             Position(3, 3),
@@ -36,7 +36,7 @@ class RobotTest {
             grid = grid
         )
 
-        robot.execute("MMRMMRMRRM")
+        robot.executeInstructions("MMRMMRMRRM")
 
         assertEquals(Position(5, 1), robot.position)
         assertEquals(Direction.E, robot.direction)
@@ -52,7 +52,7 @@ class RobotTest {
             grid = grid
         )
 
-        robot.execute("M")
+        robot.executeInstructions("M")
 
         assertEquals(Position(0,0), robot.position)
     }

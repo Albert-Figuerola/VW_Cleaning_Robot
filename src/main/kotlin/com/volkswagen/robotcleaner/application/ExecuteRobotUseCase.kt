@@ -12,7 +12,7 @@ class ExecuteRobotUseCase {
                 it.direction,
                 grid
             )
-            robot.execute(it.instructions)
+            robot.executeInstructions(it.instructions)
             robot
         }
     }
