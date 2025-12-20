@@ -2,7 +2,7 @@ package test.kotlin.com.volkswagen.robotcleaner.application
 
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Direction
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Position
-import main.kotlin.com.volkswagen.robotcleaner.infrastructure.InputParser
+import main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.InputParser
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.DisplayName

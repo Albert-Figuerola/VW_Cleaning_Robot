@@ -24,7 +24,7 @@ The goal is to validate the system before deploying it in real industrial scenar
 The factory floor is represented as a grid, with the bottom-left corner defined as coordinates `(0, 0)`.
 Each robot’s position is described using X and Y coordinates along with a direction it is facing:
 `North (N)`, `East (E)`, `South (S)`, or `West (W)`.
-For example, `(0, 0, N)` means the robot starts at the bottom-left corner facing north.
+For example, `(0, 0, N)` means the robot starts in the bottom-left corner facing north.
 Moving north from `(X, Y)` results in `(X, Y + 1)`.
 
 Robots are controlled using a sequence of instructions:
@@ -46,6 +46,8 @@ The system input consists of:
     - A string of movement instructions.
 
 Robots operate sequentially, meaning each robot completes its entire instruction set before the next one begins.
+
+To send the commands, press **Enter twice**.
 
 ## Output Format and Execution
 
@@ -69,4 +71,4 @@ Sample input:
 
 Sample output:  
 `1 2 N`  
-`1 2 N`
+`5 1 E`
