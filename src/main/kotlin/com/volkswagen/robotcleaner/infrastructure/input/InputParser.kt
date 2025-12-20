@@ -1,4 +1,4 @@
-package main.kotlin.com.volkswagen.robotcleaner.infrastructure
+package main.kotlin.com.volkswagen.robotcleaner.infrastructure.input
 
 import main.kotlin.com.volkswagen.robotcleaner.application.RobotCommand
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Direction
