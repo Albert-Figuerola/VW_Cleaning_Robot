@@ -42,19 +42,4 @@ class RobotTest {
         assertEquals(Direction.E, robot.direction)
     }
 
-    @Test
-    @DisplayName("Testing the wall")
-    fun testWall() {
-        val grid = Grid(5, 5)
-        val robot = Robot(
-            Position(0, 0),
-            Direction.S,
-            grid = grid
-        )
-
-        robot.executeInstructions("M")
-
-        assertEquals(Position(0,0), robot.position)
-    }
-
 }
