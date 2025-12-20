@@ -1,5 +1,6 @@
-package main.kotlin.com.volkswagen.robotcleaner.application
+package main.kotlin.com.volkswagen.robotcleaner.application.usecase
 
+import main.kotlin.com.volkswagen.robotcleaner.application.dto.RobotCommand
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Grid
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Robot
 
