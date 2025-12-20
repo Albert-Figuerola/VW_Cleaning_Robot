@@ -4,7 +4,17 @@
 
 ---
 
-This program was created to control the robot that cleans the floor of VW's industrial buildings.
+Created by: Albert Figuerola Gómez.
+
+This program was created using Kotlin, DDD, and hexagonal architecture.
+
+The advantages they offer are:
+
+- Kotlin: clear and concise syntax, less boilerplate code, and type safety.
+- DDD: The business logic resides in the domain, making the code more cohesive, modular, and easy to maintain.
+- Hexagonal architecture: clear separation between domain and external layers, facilitating testing, flexibility, and adaptability of the system.
+
+Let's start cleaning! 🧹🧼🦾
 
 ## Project overview
 
@@ -48,6 +58,8 @@ The system input consists of:
 Robots operate sequentially, meaning each robot completes its entire instruction set before the next one begins.
 
 To send the commands, press **Enter twice**.
+
+**IMPORTANT**: If the robot detects an obstacle, it will stop immediately.
 
 ## Output Format and Execution
 

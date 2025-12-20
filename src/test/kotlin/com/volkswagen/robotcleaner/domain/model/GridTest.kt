@@ -20,7 +20,7 @@ class GridTest {
             grid = grid
         )
 
-        robot.executeInstructions("M")
+        robot.execute("M")
 
         assertEquals(Position(0,0), robot.position)
     }

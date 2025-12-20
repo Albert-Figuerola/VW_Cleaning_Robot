@@ -1,4 +1,4 @@
-package main.kotlin.com.volkswagen.robotcleaner.infrastructure.input
+package main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.validator
 
 import main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.exception.InvalidGridException
 import main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.exception.InvalidInputException

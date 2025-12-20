@@ -2,7 +2,7 @@ package main.kotlin.com.volkswagen.robotcleaner.infrastructure.output
 
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Robot
 
-class OutPutFormatter {
+class OutputFormatter {
 
     fun format(robots: List<Robot>): String =
         robots.joinToString("\n") {
