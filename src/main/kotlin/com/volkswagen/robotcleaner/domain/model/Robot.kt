@@ -8,7 +8,7 @@ class Robot (
     var position: Position = initPosition
     var direction: Direction = initDirection
 
-    fun execute(instructions: String) {
+    fun executeInstructions(instructions: String) {
         instructions.forEach { instruction ->
             when (instruction) {
                 'L' -> direction = direction.turnLeft()
