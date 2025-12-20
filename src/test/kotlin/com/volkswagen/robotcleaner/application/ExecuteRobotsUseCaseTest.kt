@@ -30,7 +30,7 @@ class ExecuteRobotsUseCaseTest {
 
         val useCase = ExecuteRobotUseCase()
 
-        val result = useCase.execute(grid, commands)
+        val result = useCase.run(grid, commands)
 
         assertEquals(2, result.size)
 

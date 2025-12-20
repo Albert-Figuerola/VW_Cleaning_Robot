@@ -1,9 +1,10 @@
-package main.kotlin.com.volkswagen.robotcleaner.infrastructure.input
+package main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.parser
 
 import main.kotlin.com.volkswagen.robotcleaner.application.dto.RobotCommand
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Direction
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Grid
 import main.kotlin.com.volkswagen.robotcleaner.domain.model.Position
+import main.kotlin.com.volkswagen.robotcleaner.infrastructure.input.validator.InputValidator
 
 class InputParser(
     private val validator: InputValidator = InputValidator()
